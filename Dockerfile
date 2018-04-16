@@ -17,4 +17,4 @@ RUN set -ex \
     && echo Done upgrading pip... \
     && pip install lxml \
     && echo Done installing python package lxml... \
-    && echo Done :-)
+    && echo Done!
