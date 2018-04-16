@@ -3,16 +3,18 @@ MAINTAINER Ozgur Amac
 
 RUN set -ex \
     && apk add --no-cache \
+            bash \
             gcc \
-            make \
             libc-dev \
+            libxml2-dev \
+            libxslt-dev \
+            make \
             musl-dev \
             pcre-dev \
             postgresql-dev \
-            libxml2-dev \
-            libxslt-dev \
-    && echo Done installing needed packages...
+    && echo Done installing needed packages... \
     && pip install -U pip \
-    && echo Done upgrading pip...
+    && echo Done upgrading pip... \
     && pip install lxml \
-    && echo Done installing python package lxml...
+    && echo Done installing python package lxml... \
+    && echo Done :-)
