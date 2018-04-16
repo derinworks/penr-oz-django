@@ -15,6 +15,6 @@ RUN set -ex \
     && echo Done installing needed packages... \
     && pip install -U pip \
     && echo Done upgrading pip... \
-    && pip install lxml \
+    && CFLAGS="-O0"  pip install lxml \
     && echo Done installing python package lxml... \
     && echo Done!
