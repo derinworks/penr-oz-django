@@ -10,7 +10,7 @@ To begin development on this site:
 ### How do I get set up? ###
 
 * Install docker
-* How to build image locally: ```docker build . -t local/penr-oz-django```
+* How to build image locally: ```docker build 3-alpine -t local/penr-oz-django:3-alpine```
 
 ### Contribution guidelines ###
 
